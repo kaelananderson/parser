@@ -1,0 +1,7 @@
+EQUALS STAR ID 
+%%
+S : L EQUALS R 
+S : R   
+L : STAR R 
+L : ID 
+R : L  

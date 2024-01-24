@@ -1,0 +1,7 @@
+A B 
+%%
+start : A start A
+start : B start B
+start : eps
+start : A
+start : B

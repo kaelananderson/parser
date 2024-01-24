@@ -1,0 +1,3 @@
+if (bb2 > abc) thEn {c = 2; aa4; abc = 2 * bc};
+a1=15.5;ccc = 10.2;;;
+bb2=20.4E2;

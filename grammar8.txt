@@ -1,0 +1,15 @@
+x y z 
+%%
+S : X 
+S : Y
+S : Z    
+X : X Y 
+X : Z 
+X : x 
+Y : Y Z 
+Y : X 
+Y : y 
+Z : Z X 
+Z : Y 
+Z : z 
+Z : eps

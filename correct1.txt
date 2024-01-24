@@ -1,0 +1,2 @@
+Valid
+S A B z A B z A eps y y x

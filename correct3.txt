@@ -1,0 +1,2 @@
+Valid
+expr term factor ( expr term factor ( expr term factor ( expr term factor ab012 termPrime eps exprPrime + term factor abc termPrime * factor c12 termPrime eps exprPrime eps ) termPrime eps exprPrime + term factor b19 termPrime eps exprPrime eps ) termPrime * factor E33 termPrime eps exprPrime eps ) termPrime eps exprPrime + term factor c1 termPrime eps exprPrime eps

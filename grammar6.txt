@@ -1,0 +1,27 @@
+ID PLUS MULT 
+LEFT_PAREN RIGHT_PAREN NUM ASSIGN SEMICOLON
+IF_KEYWORD THEN_KEYWORD COMPARISON_OPERATOR
+LEFT_BRACE RIGHT_BRACE
+%%
+statements : eps 
+statements : statement
+statements : statement statement_separators statements 
+statement : expr 
+statement : assignment
+statement : if_statement
+block_statement : LEFT_BRACE statements RIGHT_BRACE
+statement_separators : statement_separator statement_separators
+statement_separators : statement_separator
+statement_separator : SEMICOLON
+expr : expr PLUS term 
+expr : term 
+term : term MULT factor 
+term : factor 
+factor : LEFT_PAREN expr RIGHT_PAREN 
+factor : ID 
+factor : NUM
+assignment : ID ASSIGN assignment_remainder 
+assignment_remainder : expr 
+assignment_remainder : ID ASSIGN assignment_remainder 
+comparison : factor COMPARISON_OPERATOR factor
+if_statement : IF_KEYWORD LEFT_PAREN comparison RIGHT_PAREN THEN_KEYWORD block_statement

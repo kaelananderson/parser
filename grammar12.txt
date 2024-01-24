@@ -1,0 +1,11 @@
+ID PLUS MULT 
+LEFT_PAREN RIGHT_PAREN
+%%
+expr : term exprPrime
+exprPrime : PLUS term exprPrime
+exprPrime : eps
+term : factor termPrime
+termPrime : MULT factor termPrime
+termPrime : eps
+factor : LEFT_PAREN expr RIGHT_PAREN
+factor : ID

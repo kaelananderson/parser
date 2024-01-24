@@ -1,0 +1,6 @@
+TOKENX TOKENY TOKENZ 
+%%
+S : A TOKENX
+A : B A TOKENY
+A : eps
+B : TOKENZ
