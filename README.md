@@ -1,8 +1,9 @@
-#LR Grammar Parsing and Processing Repository
-##Overview
+LR Grammar Parsing and Processing Repository
+
+Overview
 This repository contains a collection of Python modules and scripts that collectively contribute to parsing and processing LR grammars. The project includes the implementation of various aspects of computational linguistics and compiler design, such as lexical analysis, NFA and DFA simulations, regular expression processing, and error handling in grammar parsing.
 
-##Files Description
+Files Description
 parse.py
 Authors: Kaelan Anderson, Dillon Timmer
 Last Modified: December 19, 2023
@@ -32,5 +33,5 @@ Description: A test script for the project. It tests the functionalities provide
 
 The repository also includes source files, grammer files, token files, and correct files that are used to run tests on the python source code to simulate how the LR parses computes. 
 
-##Usage
+Usage
 To run the project, access the test_pa5.py file that will simulate tests for all src.txt files. 
